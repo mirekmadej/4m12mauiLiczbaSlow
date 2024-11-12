@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_4m12mauiLiczbaSlow.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Label
+                Text="aplikacja do zliczania liczby słów"
+                />
+
+            <Entry Placeholder="wpiz ciąg znaków"
+                   x:Name="entNapis"
+                   />
+            <Button
+                Text="policz słowa"
+                Clicked="btnPoliczSlowa"
+                />
+            <Button
+                Text="policz samogłoski"
+                Clicked="btnPoliczSamogloski"
+                />
+            <Button
+                Text="czy to jest palindrom?"
+                Clicked="btnCzyPalindrom"
+                />
+
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
