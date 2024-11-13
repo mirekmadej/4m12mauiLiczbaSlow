@@ -26,6 +26,21 @@
                 Text="czy to jest palindrom?"
                 Clicked="btnCzyPalindrom"
                 />
+            <HorizontalStackLayout Spacing="10">
+                <Entry
+                    Placeholder="podaj pierwszy ciąg do anagramu"
+                    x:Name="entAnagram1"
+                    />
+                <Entry
+                    Placeholder="podaj drugi ciąg do anagramu"
+                    x:Name="entAnagram2"
+                    />
+            </HorizontalStackLayout>
+            <Button
+                Text="czy anagram?"
+                Clicked="btnCzyAnagram"
+                />
+
 
 
 
